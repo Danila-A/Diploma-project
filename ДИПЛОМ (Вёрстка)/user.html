@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/sources/image/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    
+    <title>ТЕМП-АВИА</title>
+</head>
+<body>
+    <a href="#header" class="up__link">
+        <div class="content__linkup element__animation">
+            
+                <img src="/sources/image/4fa4cc89c8dac44e7d6c8c41b1c9599e.png" alt="">
+            
+        </div>
+    </a>
+    <div class="wrapper">
+        <header class="header" id="header"> 
+            <div class="header__inner">
+                <div class="header__logo">
+                    <a href="index.html">
+                        <img src="/sources/image/logo.png"  class="logo__img">
+                    </a>
+                </div>
+                <div class="header__button">
+                   <img src="/sources/image/menu-4-32.ico" alt="" class="button__icon">
+                </div>
+            </div>
+            <div class="header__menu container">
+                <nav class="menu__nav">
+                    <ul>
+                        <li>
+                            <a href="" class="nav__button menu__button">Вакансии</a>
+                        </li>
+                        <li>
+                            <a href="/" class="nav__button menu__button">Выйти из личного кабинета</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="content">
+            <section class="user__content container">
+                <div class="user__inner">
+                    <div class="user__title">
+                        <p class="title__text">
+                            Здравствуйте: имя пользователя
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="user__data">
+                        <div class="data__inner">
+                            <div class="data__title">
+                                <p class="subtitle__text">
+                                    Ваши данные:
+                                </p>
+                            </div>
+                            <div class="data__conteiner">
+                                <div class="conteiner__table">
+                                    <table class="table">
+                                        <tr>
+                                            <td>Имя</td>
+                                            <td>
+                                                <span id="user__name">имя пользователя</span>
+                                                <img src="/sources/image/rewrite.svg" id="update__icon__name"  
+                                                onclick="updateUserData('#user__name','#update__icon__name', '#no__icon__name', '#ok__icon__name');">
+
+                                                
+                                                <img src="/sources/image/no.svg" id="no__icon__name" 
+                                                onclick="closeInput('#user__name','#update__icon__name', '#no__icon__name', '#ok__icon__name');">
+                                                
+                                                
+                                                <img src="/sources/image/ok.svg" id="ok__icon__name"
+                                                 onclick="saveUpdate('#user__name','#update__icon__name', '#no__icon__name', '#ok__icon__name', 
+                                                 '#input__user__name');">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Телефон</td>
+                                            <td>
+                                                <span id="user__phone">телефон пользователя</span>
+                                                <img src="/sources/image/rewrite.svg" id="update__icon__phone"  
+                                                onclick="updateUserData('#user__phone','#update__icon__phone', '#no__icon__phone', '#ok__icon__phone');">
+
+                                                
+                                                <img src="/sources/image/no.svg" id="no__icon__phone" 
+                                                onclick="closeInput('#user__phone','#update__icon__phone', '#no__icon__phone', '#ok__icon__phone');">
+                                                
+                                                
+                                                <img src="/sources/image/ok.svg" id="ok__icon__phone" 
+                                                onclick="saveUpdate('#user__phone','#update__icon__phone', '#no__icon__phone', '#ok__icon__phone', 
+                                                '#input__user__phone');">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Email</td>
+                                            <td>
+                                                <span id="user__email">Email пользователя</span>
+                                                <img src="/sources/image/rewrite.svg" id="update__icon__email"  
+                                                onclick="updateUserData('#user__email','#update__icon__email', '#no__icon__email', '#ok__icon__email');">
+
+                                                
+                                                <img src="/sources/image/no.svg" id="no__icon__email" 
+                                                onclick="closeInput('#user__email','#update__icon__email', '#no__icon__email', '#ok__icon__email');">
+                                                
+                                                
+                                                <img src="/sources/image/ok.svg" id="ok__icon__email" 
+                                                onclick="saveUpdate('#user__email','#update__icon__email', '#no__icon__email', '#ok__icon__email',
+                                                 '#input__user__email');">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="user__vacancy">
+                        <div class="vacancy__inner">
+                            <div class="vacancy__title">
+                                <p class="subtitle__text ">
+                                    Ваша вакансия:
+                                </p>
+                            </div>
+                            <div class="vacancy__conteiner">
+                                <div class="conteiner__vacancys">
+
+                                    <div class="vacancys__item">
+                                        <div class="item__title">
+                                            <p class="subtitle__text title__vacancy">
+                                                Название вакансии
+                                            </p>
+                                        </div>
+                                        <div class="item__date">
+                                            <p class="subtitle__text date__text">
+                                                Дата подачи: 1-01-2003
+                                            </p>
+                                        </div>
+                                        <div class="item__status">
+                                            <p class="subtitle__text status__text">
+                                                Статус: На рассмотрении
+                                            </p>
+                                        </div>
+                                        <div class="item__button">
+                                            <p class="button__text">
+                                                Удалить
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="vacancys__item">
+                                        <div class="item__title">
+                                            <p class="subtitle__text title__vacancy">
+                                                Название вакансии
+                                            </p>
+                                        </div>
+                                        <div class="item__date">
+                                            <p class="subtitle__text date__text">
+                                                Дата подачи: 1-01-2003
+                                            </p>
+                                        </div>
+                                        <div class="item__status">
+                                            <p class="subtitle__text status__text">
+                                                Статус: На рассмотрении
+                                            </p>
+                                        </div>
+                                        <div class="item__button">
+                                            <p class="button__text">
+                                                Удалить
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="vacancys__empty">
+                                        <p class="subtitle__text">
+                                            Пусто
+                                        </p>
+                                    </div> -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            <div class="footer__inner container">
+                <a href="ingex.html">
+                    <img src="/sources/image/logo.png" id="img__one">
+                </a>
+                <div class="footer__sot">
+                    <a href="https://vk.com/temp_avia"  target="_blank">
+                        <img src="/sources/image/W2Wjf8C0GZxmUXeFd0f9jt68VpONdohKmJxDOW7AFRY.png" id="img__two">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+<script src="/js/script.js"></script>
+</body>
+</html>

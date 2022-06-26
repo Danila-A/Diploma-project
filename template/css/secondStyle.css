@@ -1,0 +1,9 @@
+:root {
+    --bgcolor : rgb(56, 108, 219, 0.6);
+    --whitecolor : rgb(250, 248, 246);
+    --btnbgcolor : rgb(56, 108, 219);
+}
+
+body.fixed {
+    overflow : hidden;
+}

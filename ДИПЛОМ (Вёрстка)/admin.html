@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/sources/image/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Админпанель</title>
+</head>
+<body>
+    <a href="#header" class="up__link">
+        <div class="content__linkup element__animation">
+            
+                <img src="/sources/image/4fa4cc89c8dac44e7d6c8c41b1c9599e.png" alt="">
+            
+        </div>
+    </a>
+    <div class="wrapper">
+        <header class="admin__header">
+            <div class="admin__nav">
+                <ul class="nav__list">
+                    <li>
+                        <a href="" class="list__link">Админпанель</a>
+                    </li>
+                    <li>
+                        <a href="" class="list__link">На сайт</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div class="admin__content container">
+            <div class="content__inner">
+                <div class="content__header">
+                    <nav class="content__nav">
+                        <ul>
+                            <li class="nav__btn" id="adminApplication" onclick="adminToDoActive('#adminApplication', showApplicationTable);">Управление заявками</li>
+                            <li class="nav__btn" id="adminCategory" onclick="adminToDoActive('#adminCategory', showCategoryTable);">Управление категориями</li>
+                            <li class="nav__btn" id="amdinVacancy" onclick="adminToDoActive('#amdinVacancy', showVacancyTable);">Управление вакансиями</li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="content__tables">
+                    <div class="tables__application">
+                        <table class="admin__table">
+                            <tr>
+                                <td>Id заявки</td>
+                                <td>Имя пользователя</td>
+                                <td>Телефон пользователя</td>
+                                <td>Дата оформления</td>
+                                <td>Статус</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Id заявки</td>
+                                <td>Имя пользователя</td>
+                                <td>Телефон пользователя</td>
+                                <td>Дата оформления</td>
+                                <td>Статус</td>
+                                <td class="td__icon">
+                                    <img src="/sources/image/lupe.svg" id="show__icon" >
+                                </td>
+                                <td class="td__icon">
+                                    <img src="/sources/image/rewrite.svg" id="update__icon__name" >
+                                </td>
+                                <td class="td__icon">
+                                    <img src="/sources/image/no.svg" id="no__icon__name"> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Id заявки</td>
+                                <td>Имя пользователя</td>
+                                <td>Телефон пользователя</td>
+                                <td>Дата оформления</td>
+                                <td>Статус</td>
+                                <td class="td__icon">
+                                    <img src="/sources/image/lupe.svg" id="show__icon" >
+                                </td>
+                                <td class="td__icon">
+                                    <img src="/sources/image/rewrite.svg" id="update__icon__name" >
+                                </td>
+                                <td class="td__icon">
+                                    <img src="/sources/image/no.svg" id="no__icon__name"> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Id заявки</td>
+                                <td>Имя пользователя</td>
+                                <td>Телефон пользователя</td>
+                                <td>Дата оформления</td>
+                                <td>Статус</td>
+                                <td class="td__icon">
+                                    <img src="/sources/image/lupe.svg" id="show__icon" >
+                                </td>
+                                <td class="td__icon">
+                                    <img src="/sources/image/rewrite.svg" id="update__icon__name" >
+                                </td>
+                                <td class="td__icon">
+                                    <img src="/sources/image/no.svg" id="no__icon__name"> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Id заявки</td>
+                                <td>Имя пользователя</td>
+                                <td>Телефон пользователя</td>
+                                <td>Дата оформления</td>
+                                <td>Статус</td>
+                                <td class="td__icon">
+                                    <img src="/sources/image/lupe.svg" id="show__icon" >
+                                </td>
+                                <td class="td__icon">
+                                    <img src="/sources/image/rewrite.svg" id="update__icon__name" >
+                                </td>
+                                <td class="td__icon">
+                                    <img src="/sources/image/no.svg" id="no__icon__name"> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Id заявки</td>
+                                <td>Имя пользователя</td>
+                                <td>Телефон пользователя</td>
+                                <td>Дата оформления</td>
+                                <td>Статус</td>
+                                <td class="td__icon">
+                                    <img src="/sources/image/lupe.svg" id="show__icon" >
+                                </td>
+                                <td class="td__icon">
+                                    <img src="/sources/image/rewrite.svg" id="update__icon__name" >
+                                </td>
+                                <td class="td__icon">
+                                    <img src="/sources/image/no.svg" id="no__icon__name"> 
+                                </td>
+                            </tr>
+                            
+                        </table>
+                    </div>
+                    <div class="tables__category">
+                        <div class="category__button">
+                            <a href="" class="table__button">Добавить категорию</a>
+                        </div>
+                        <table class="admin__table">
+                            <tr>
+                                <td>Id категории</td>
+                                <td>Название</td>
+                                <td>Номер сортировки</td>
+                                <td>Статус</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Id категории</td>
+                                <td>Название</td>
+                                <td>Номер сортировки</td>
+                                <td>Статус</td>
+                                <td class="td__icon">
+                                    <img src="/sources/image/rewrite.svg" id="update__icon__name" >
+                                </td>
+                                <td class="td__icon">
+                                    <img src="/sources/image/no.svg" id="no__icon__name"> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Id категории</td>
+                                <td>Название</td>
+                                <td>Номер сортировки</td>
+                                <td>Статус</td>
+                                <td class="td__icon">
+                                    <img src="/sources/image/rewrite.svg" id="update__icon__name" >
+                                </td>
+                                <td class="td__icon">
+                                    <img src="/sources/image/no.svg" id="no__icon__name"> 
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tables__vacancy">
+                        <div class="category__button">
+                            <a href="" class="table__button">Добавить вакансию</a>
+                        </div>
+                        <table class="admin__table">
+                            <tr>
+                                <td>Id вакансии</td>
+                                <td>Название</td>
+                                <td>Категория</td>
+                                <td>Статус</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Id вакансии</td>
+                                <td>Название</td>
+                                <td>Номер категории</td>
+                                <td>Статус</td>
+                                <td class="td__icon">
+                                    <img src="/sources/image/rewrite.svg" id="update__icon__name" >
+                                </td>
+                                <td class="td__icon">
+                                    <img src="/sources/image/no.svg" id="no__icon__name"> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Id вакансии</td>
+                                <td>Название</td>
+                                <td>Номер категории</td>
+                                <td>Статус</td>
+                                <td class="td__icon">
+                                    <img src="/sources/image/rewrite.svg" id="update__icon__name" >
+                                </td>
+                                <td class="td__icon">
+                                    <img src="/sources/image/no.svg" id="no__icon__name"> 
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>
